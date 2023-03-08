@@ -32,3 +32,16 @@ elAll.addEventListener("click", (evt) => {
     elList.innerHTML = elBookmarkTxt3.textContent + "<br>" + elList.innerHTML;
   }
 });
+
+// loader
+
+        setTimeout(function () {
+            $(".loader_bg").fadeToggle();
+        }, 1400);
+        var loader = document.querySelector(".loader");
+
+        window.addEventListener("load", vanish);
+
+        function vanish() {
+            loader.classList.add("dissapear");
+        }
