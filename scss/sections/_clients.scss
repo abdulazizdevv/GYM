@@ -1,0 +1,125 @@
+.testimonials_section{
+    width: 1440px;
+height: 882px;
+margin: 0 auto;
+background: #F8F8F8;
+}
+.testimonials_top{
+    width: 1191px;
+    display: flex;
+    justify-content: flex-end;
+}
+.testimonials{
+    margin-top: 50px;
+
+}
+.testimonials_text{
+    text-align: center;
+  
+    h3{
+        width: 500px;
+min-height: 53px;
+font-family: 'Audiowide';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 45px;
+text-align: center;
+color: #484848;
+    }
+    p{
+        width: 471px;
+height: 50px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #9E9E9E;
+    }
+}
+
+.testimonials_content{
+    margin: 0 auto;
+    width: 1091px;
+height: 402px;
+
+border: 17px solid #8DABDD;
+box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.15);
+position: relative;
+}
+
+.testimonials_content_img{
+    position: absolute;
+    top: -180px;
+    // width: 347px;
+    // height: 466px;
+    width: 425px;
+height: 543px;
+border: 3px solid #AE0F0F;
+filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 0px 200px 0px 0px;
+    background-image: url(../../images/Mask_boy.png);
+    background-position: calc(10% + 10px ) calc(100% - 0px);
+    z-index: 99;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonials_content_carousel{
+    text-align: center;
+    display: flex;
+    
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 60px;
+    padding-right: 50px;
+  width: 100%;
+    
+}
+.testimonials_content_carousel_info{
+    width: 498px;
+    text-align: center;
+    h4{
+        margin: 0 auto;
+        font-family: 'Open Sans';
+font-style: normal;
+font-size: 4rem;
+        width: 30px;
+min-height: 43px;
+font-weight: 600;
+color: #B4B4B4;
+    }
+    p{
+        text-align: left;
+        width: 498px;
+height: 104px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #1A1818;
+
+    }
+    h5{
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 50px;
+display: flex;
+align-items: center;
+color: #AE0F0F;
+span{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+color: #787878;
+
+}
+    }
+}
