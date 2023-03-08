@@ -1,10 +1,11 @@
 {
     "version": 3,
-    "mappings": "AQAA,AAAA,KAAK,CAAA;EACD,KAAK,EAAE,GAAG;CACb",
+    "mappings": "AGAA,OAAO,CAAC,uFAAI;ACAZ,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;AACD,AAAA,UAAU,CAAC;EACT,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,MAAM;CAChB;;AKTD,AAAA,KAAK,CAAA;EACD,KAAK,EAAE,GAAG;CACb",
     "sources": [
         "../scss/main.scss",
         "../scss/abstracts/_mixins.scss",
         "../scss/abstracts/_variables.scss",
+        "../scss/abstracts/_fonts.scss",
         "../scss/base/_reset.scss",
         "../scss/base/_typography.scss",
         "../scss/components/_buttons.scss",
