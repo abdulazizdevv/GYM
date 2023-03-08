@@ -4,10 +4,8 @@ const hide = document.querySelector(".hide")
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.add('db')
-  console.log(true);
 })
 
-console.log(toggleButton);
 
 
 hide.addEventListener('click', () => {
@@ -25,7 +23,6 @@ let elList = document.querySelector(".js-list");
 
 elAll.addEventListener("click", (evt) => {
   if (evt.target.matches(".js-btn1")) {
-    console.log(elList.innerHTML);
     elList.innerHTML = elBookmarkTxt1.textContent + "<br>" + elList.innerHTML;
   }
   if (evt.target.matches(".js-btn2")) {
