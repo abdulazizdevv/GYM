@@ -297,6 +297,7 @@ header {
 
 .db {
   display: block;
+  z-index: 9999 !important;
 }
 
 @media (max-width: 1024px) {
@@ -305,7 +306,7 @@ header {
   }
   .navbar-responsive {
     width: 100%;
-    height: 120dvh;
+    height: 100%;
     background: #ffffff;
     position: absolute;
     z-index: 99999;
@@ -1066,4 +1067,8 @@ th {
   margin-top: 10px;
   margin-left: 50px;
   gap: 18px;
+}
+
+body {
+  overflow-x: hidden;
 }/*# sourceMappingURL=main.css.map */
