@@ -13,13 +13,16 @@
         "../scss/layout/_footer.scss",
         "../scss/layout/_header.scss",
         "../scss/sections/_hero.scss",
-        "../scss/sections/_blogs.scss",
-        "../scss/sections/_categories.scss",
-        "../scss/sections/_listing.scss",
-        "../scss/sections/_offer.scss",
+        "../scss/sections/_about.scss",
+        "../scss/sections/_bmi.scss",
+        "../scss/sections/_change.scss",
+        "../scss/sections/_choose.scss",
+        "../scss/sections/_clients.scss",
         "../scss/sections/_our.scss",
-        "../scss/sections/_users.scss",
-        "../scss/sections/_works.scss"
+        "../scss/sections/_plans.scss",
+        "../scss/sections/_store.scss",
+        "../scss/sections/_tables.scss",
+        "../scss/sections/_trainers.scss"
     ],
     "names": [],
     "file": "main.css"
